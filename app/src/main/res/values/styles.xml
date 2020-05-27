@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <!-- 自定义默认二维码扫描界面的主题. -->
+    <style name="XQRCodeTheme.Custom">
+        <item name="ViewfinderViewStyle">@style/ViewfinderView.Custom</item>
+    </style>
+
+    <style name="ViewfinderView.Custom">
+        <item name="inner_corner_color">#123456</item>
+        <item name="inner_corner_length">50dp</item>
+        <item name="inner_corner_width">5dp</item>
+        <item name="inner_scan_speed">20dp</item>
+        <item name="inner_scan_isCircle">false</item>
+    </style>
+
+
+</resources>
